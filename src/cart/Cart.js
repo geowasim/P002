@@ -340,7 +340,7 @@ const Basket = (props) => {
         <div className="copyRights">
           <p>
             {" "}
-            Copyright <span>&copy;</span> reserved for Alnathra Al-Raqiqa -{" "}
+            Copyright <span>&copy;</span> Tahween 4 Business Services{" "}
             {new Date().getFullYear()}
           </p>
         </div>
