@@ -169,7 +169,7 @@ const Basket = (props) => {
             <div key={item.id} className="row">
               <div className="basketTitle">{item.description}</div>
               <div className="basketIND">
-                <button onClick={() => onAdd(item)} className=" add">
+                <button onClick={() => onAdd(item)} className=" add" disabled>
                   +
                 </button>
                 <button onClick={() => onRemove(item)} className=" remove">
