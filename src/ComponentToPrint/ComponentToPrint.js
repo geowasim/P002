@@ -46,7 +46,7 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
         <br />
       </div>
       <div className="perData">
-        <p>معرض الاحساء للعطور والبخور</p>
+        <p>معرض العطور والبخور - الظهران </p>
         <p>Simplified Vat Invoice</p>
         <p>فاتورة ضريبية مبسطة</p>
 
