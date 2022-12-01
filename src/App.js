@@ -53,9 +53,9 @@ function App() {
             path="/invoices"
             element={
               <ProtectedRoute>
-                {/* <Invoices
-                /> */}
-                loading...{" "}
+                <Invoices
+                // readDataFromInvoiceComponent={readDataFromInvoiceComponent}
+                />
               </ProtectedRoute>
             }
           />
