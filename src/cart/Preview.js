@@ -109,13 +109,13 @@ const Preview = React.forwardRef((props, ref) => {
               <div className="L1-p">
                 <p>Discount * الخصم</p>
                 <p>
-                  <b>{itemsPrice - itemPriceBefore} SAR</b>
+                  <b>{(itemsPrice - itemPriceBefore).toFixed(2)} SAR</b>
                 </p>
               </div>
             )}
             <div className="L1-p">
               <p>Subtotal without VAT </p>
-              <p>{itemsPrice} SAR</p>
+              <p>{itemsPrice.toFixed(2)} SAR</p>
             </div>
             <div className="L1-p">
               <p>VAT 15%</p>

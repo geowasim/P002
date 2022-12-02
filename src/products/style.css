@@ -56,6 +56,19 @@ img {
   background-color: rgba(19, 19, 113, 0.2);
 }
 
+.p3,
+.p4,
+.p11,
+.p12 {
+  background-color: rgba(213, 5, 109, 0.234);
+}
+.p1,
+.p2,
+.p9,
+.p10 {
+  background-color: rgba(7, 39, 166, 0.433);
+}
+
 .product-category p {
   font-size: 18px;
 }

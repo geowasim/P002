@@ -17,7 +17,7 @@ const Products = (props) => {
           {perfumes.map((perfume) => (
             <div
               key={perfume.id}
-              className={`card`}
+              className={`card ${"p" + String(perfume.id)}`}
               onClick={() => {
                 setIdPerfume(perfume.id);
                 handleIsPrint(true);
