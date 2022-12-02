@@ -134,13 +134,13 @@ export const ComponentToPrint = React.forwardRef((props, ref) => {
               <div className="L1">
                 <p>Discount * الخصم</p>
                 <p>
-                  <b>{itemsPrice - itemPriceBefore} SAR</b>
+                  <b>{(itemsPrice - itemPriceBefore).toFixed(2)} SAR</b>
                 </p>
               </div>
             )}
             <div className="L1">
               <p>Total without VAT - الكلي بدون ضريبة</p>
-              <p>{itemsPrice} SAR</p>
+              <p>{itemsPrice.toFixed(2)} SAR</p>
             </div>
             <div className="L1">
               <p>VAT 15%</p>
